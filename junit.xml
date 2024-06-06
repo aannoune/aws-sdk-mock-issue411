@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="1" failures="1" errors="0" time="0.562">
+  <testsuite name="simple test" errors="0" failures="1" skipped="0" timestamp="2024-06-06T14:52:19" time="0.533" tests="1">
+    <testcase classname="simple test dynamo call" name="simple test dynamo call" time="0.001">
+      <failure>TypeError: AWS.mock is not a function
+    at Object.mock (/root/allianz-trade/3rdParty/mockTest/tests/mock.test.js:7:7)
+    at Promise.then.completed (/root/allianz-trade/3rdParty/mockTest/node_modules/jest-circus/build/utils.js:298:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/root/allianz-trade/3rdParty/mockTest/node_modules/jest-circus/build/utils.js:231:10)
+    at _callCircusHook (/root/allianz-trade/3rdParty/mockTest/node_modules/jest-circus/build/run.js:281:40)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at _runTestsForDescribeBlock (/root/allianz-trade/3rdParty/mockTest/node_modules/jest-circus/build/run.js:95:7)
+    at _runTestsForDescribeBlock (/root/allianz-trade/3rdParty/mockTest/node_modules/jest-circus/build/run.js:121:9)
+    at run (/root/allianz-trade/3rdParty/mockTest/node_modules/jest-circus/build/run.js:71:3)
+    at runAndTransformResultsToJestFormat (/root/allianz-trade/3rdParty/mockTest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)
+    at jestAdapter (/root/allianz-trade/3rdParty/mockTest/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)
+    at runTestInternal (/root/allianz-trade/3rdParty/mockTest/node_modules/jest-runner/build/runTest.js:367:16)
+    at runTest (/root/allianz-trade/3rdParty/mockTest/node_modules/jest-runner/build/runTest.js:444:34)</failure>
+    </testcase>
+  </testsuite>
+</testsuites>

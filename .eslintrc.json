@@ -1,0 +1,20 @@
+{
+    "root": true,
+    "plugins": [
+        "jest",
+        "sonarjs",
+        "promise",
+        "json"
+    ],
+    "parserOptions": {
+        "ecmaVersion": 2022,
+        "sourceType": "script"
+    },
+    "extends": [
+        "plugin:json/recommended",
+        "plugin:sonarjs/recommended-legacy"
+    ],
+    "env": {
+        "jest/globals": true
+    }
+}
